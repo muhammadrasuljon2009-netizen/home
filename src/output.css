@@ -9,6 +9,8 @@
       "Courier New", monospace;
     --color-black: #000;
     --spacing: 0.25rem;
+    --text-5xl: 3rem;
+    --text-5xl--line-height: 1;
     --text-6xl: 3.75rem;
     --text-6xl--line-height: 1;
     --text-7xl: 4.5rem;
@@ -211,6 +213,12 @@
   .left-150 {
     left: calc(var(--spacing) * 150);
   }
+  .-mt-30 {
+    margin-top: calc(var(--spacing) * -30);
+  }
+  .-mt-40 {
+    margin-top: calc(var(--spacing) * -40);
+  }
   .mt-2 {
     margin-top: calc(var(--spacing) * 2);
   }
@@ -268,6 +276,12 @@
   .h-19 {
     height: calc(var(--spacing) * 19);
   }
+  .h-150 {
+    height: calc(var(--spacing) * 150);
+  }
+  .w-10 {
+    width: calc(var(--spacing) * 10);
+  }
   .w-11 {
     width: calc(var(--spacing) * 11);
   }
@@ -277,14 +291,29 @@
   .w-35 {
     width: calc(var(--spacing) * 35);
   }
+  .w-80 {
+    width: calc(var(--spacing) * 80);
+  }
+  .w-100 {
+    width: calc(var(--spacing) * 100);
+  }
   .w-110 {
     width: calc(var(--spacing) * 110);
   }
   .w-118 {
     width: calc(var(--spacing) * 118);
   }
+  .w-120 {
+    width: calc(var(--spacing) * 120);
+  }
+  .w-140 {
+    width: calc(var(--spacing) * 140);
+  }
   .w-\[100\%\] {
     width: 100%;
+  }
+  .w-\[100\] {
+    width: 100;
   }
   .border-collapse {
     border-collapse: collapse;
@@ -316,6 +345,9 @@
   .gap-15 {
     gap: calc(var(--spacing) * 15);
   }
+  .gap-20 {
+    gap: calc(var(--spacing) * 20);
+  }
   .gap-30 {
     gap: calc(var(--spacing) * 30);
   }
@@ -340,8 +372,22 @@
     border-style: var(--tw-border-style);
     border-width: 4px;
   }
+  .border-t {
+    border-top-style: var(--tw-border-style);
+    border-top-width: 1px;
+  }
+  .border-t-2 {
+    border-top-style: var(--tw-border-style);
+    border-top-width: 2px;
+  }
   .border-black {
     border-color: var(--color-black);
+  }
+  .bg-\[\#66CCA0\] {
+    background-color: #66CCA0;
+  }
+  .bg-\[\#EDA6E6\] {
+    background-color: #EDA6E6;
   }
   .bg-\[\#F5F3EA\] {
     background-color: #F5F3EA;
@@ -358,8 +404,18 @@
   .pt-7 {
     padding-top: calc(var(--spacing) * 7);
   }
+  .pt-20 {
+    padding-top: calc(var(--spacing) * 20);
+  }
+  .pt-40 {
+    padding-top: calc(var(--spacing) * 40);
+  }
   .text-center {
     text-align: center;
+  }
+  .text-5xl {
+    font-size: var(--text-5xl);
+    line-height: var(--tw-leading, var(--text-5xl--line-height));
   }
   .text-6xl {
     font-size: var(--text-6xl);
